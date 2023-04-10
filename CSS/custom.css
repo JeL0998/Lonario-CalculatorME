@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.display {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+
+.equation {
+  color: #888;
+  font-size: 14px;
+}
+
+.result {
+  font-size: 24px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;}
+button:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+button.operator {
+  background-color: #f2a33c;
+  color: #fff;
+}
+
+button.operator:hover {
+  background-color: #f5b75e;
+}
+
+button.clear {
+  background-color: #f44336;
+  color: #fff;
+}
+
+button.clear:hover {
+  background-color: #f6655a;
+}
+
+button.equal {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button.equal:hover {
+  background-color: #6cd68d;
+}
